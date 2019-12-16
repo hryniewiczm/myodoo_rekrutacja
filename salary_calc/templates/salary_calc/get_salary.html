@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="py-5">
+        <p>Proszę wypełnić wszystkie pola liczbami z zakresu > 1500</p>
+    </div>
+
+<form  method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input class="btn btn-primary" type="submit" value="Przelicz">
+</form>
+{% endblock  %}

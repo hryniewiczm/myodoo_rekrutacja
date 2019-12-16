@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="jumbotron jumbotron">
+        <h1 class="display-4">Aplikacja, która wylicza wynagrodzenie brutto na netto.</h1>
+        
+        <a class="btn btn-primary btn-lg" href="{% url 'salary_calc:get_salary' %}" role="button">Przejdź do formularza!!!</a>
+    </div>
+{% endblock  %}

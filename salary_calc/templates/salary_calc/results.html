@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+        <p>Wyniki obliczeń: </p>
+    </div>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Lp</th>
+            <th scope="col">Wynagrodzenie brutto</th>
+            <th scope="col">Wynagrodzenie netto</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>{{ param1_brutto }}</td>
+            <td>{{ par1 }}</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>{{ param2_brutto }}</td>
+            <td>{{ par2 }}</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>{{ param3_brutto }}</td>
+            <td>{{ par3 }}</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>{{ param4_brutto }}</td>
+            <td>{{ par4 }}</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>{{ param5_brutto }}</td>
+            <td>{{ par5 }}</td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td>{{ param6_brutto }}</td>
+            <td>{{ par6 }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+{% endblock  %}
