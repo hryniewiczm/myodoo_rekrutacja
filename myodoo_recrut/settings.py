@@ -25,7 +25,7 @@ SECRET_KEY = '4u=z(2rwlis*cur-vk@7oa72oy8h2hd%x8^a1dk!1o%oj4t!nk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['warm-taiga-88741.herokuapp.com']
 
 
 # Application definition
